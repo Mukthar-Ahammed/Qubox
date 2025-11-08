@@ -4,7 +4,7 @@ import { Instagram, Youtube, Linkedin } from "lucide-react";
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { name: "Instagram", url: "#", icon: <Instagram /> },
+    { name: "Instagram", url: "https://www.instagram.com/__qubox?igsh=ZW9vdWl4eG4wNnM4", icon: <Instagram /> },
     { name: "YouTube", url: "#", icon: <Youtube /> },
     { name: "LinkedIn", url: "#", icon: <Linkedin /> },
   ];
