@@ -1,46 +1,119 @@
-# Getting Started with Create React App
+# Qubox - Digital Craftsmanship Redefined
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, sophisticated static website built with React.js, TypeScript, and custom CSS, featuring a stunning dark glassmorphism design inspired by iOS liquid glass aesthetics.
 
-## Available Scripts
+## 🎨 Design Features
 
-In the project directory, you can run:
+- **Pure Black Background**: High-contrast design with pure black (#000000) background
+- **Dark Glassmorphism Theme**: Sophisticated frosted glass effects with subtle transparency
+- **Magenta Accent Color**: Vibrant magenta (#D9006C) for highlights and interactive elements
+- **Professional Service Cards**: Clean, sophisticated design with descriptive subtitles
+- **Enhanced Glow Effects**: Strong magenta glow for active service cards
+- **No Pricing Information**: Focus on service value and features rather than cost
+- **Responsive Design**: Optimized for mobile, tablet, and desktop devices
+- **Modern Typography**: Clean, readable fonts (Poppins & Roboto)
 
-### `npm start`
+## 🚀 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Framework**: React.js 18 with TypeScript
+- **Styling**: Custom CSS with glassmorphism effects
+- **Fonts**: Google Fonts (Poppins, Roboto)
+- **Build Tool**: Create React App
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🎯 Key Components
 
-### `npm test`
+### Header
+- Fixed navigation with glassmorphism effect
+- Smooth scroll behavior
+- Mobile-responsive menu
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Hero Section
+- Pure black background with subtle accent highlights
+- Animated floating elements
+- Glass card overlay with call-to-action button
+- Magenta gradient text effects
 
-### `npm run build`
+### Services Section
+- Horizontal scrolling carousel with navigation arrows
+- Interactive service cards with hover effects
+- Active card highlighting with prominent magenta glow at base
+- Professional service cards with descriptive subtitles
+- Glassmorphism cards with frosted, semi-transparent backgrounds
+- Clean, sophisticated design without pricing information
+- Mobile-optimized touch scrolling with hidden arrows on mobile
+- 5 comprehensive service categories:
+  - 🎨 Visual Design (Marketing collateral & digital assets)
+  - 🎬 Video Production & Motion Graphics (Video editing & VFX)
+  - 📸 Advanced Photo Editing & Retouching (Professional image enhancement)
+  - 🧱 3D Animation & Modeling (3D visuals & animations)
+  - 💻 Web App Development (Full-stack web solutions)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Footer
+- Social media links
+- Glassmorphism container
+- Responsive layout
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎨 Color Palette
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Accent**: #D9006C (Magenta)
+- **Background**: #000000 (Pure Black)
+- **Text**: #FFFFFF (White)
+- **Subtle Text**: #A9A9A9 (Light Gray)
+- **Card Background**: rgba(40, 40, 40, 0.5) (Semi-transparent dark)
+- **Card Border**: rgba(255, 255, 255, 0.1) (Subtle white border)
 
-### `npm run eject`
+## 🛠️ Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd qubox
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. **Start development server**
+   ```bash
+   npm start
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-## Learn More
+## 📱 Responsive Breakpoints
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Mobile**: < 640px
+- **Tablet**: 640px - 1024px
+- **Desktop**: > 1024px
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎭 Custom CSS Classes
+
+- `.glass-effect`: Frosted glass backdrop with blur
+- `.gradient-overlay`: Multi-color gradient background
+- `.glow-accent`: Magenta glow effect
+- `.transition-smooth`: Smooth cubic-bezier transitions
+- `.hero-card`: Glass card overlay for hero section
+- `.service-card`: Interactive service cards with hover effects
+- `.service-card.active`: Central card with prominent magenta glow
+- `.carousel-arrow`: Navigation arrows for services carousel
+- `.floating-element`: Animated background elements
+
+## 🚀 Performance Features
+
+- Optimized animations with CSS transforms
+- Efficient scroll handling
+- Lazy loading ready
+- Minimal bundle size
+
+## 📄 License
+
+© 2025 Qubox. All Rights Reserved.
+
+---
+
+*Crafted with passion and precision* ✨

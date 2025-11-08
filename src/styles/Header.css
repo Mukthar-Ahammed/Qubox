@@ -1,0 +1,177 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background: rgba(20, 20, 20, 0.35); /* Glass effect */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1.2rem; /* Reduced header height */
+}
+
+.header.scrolled {
+  background: rgba(20, 20, 20, 0.95);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo adjustments */
+.logo {
+  height: 90px; /* Reduced logo height */
+  width: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Desktop Navigation */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem; /* Slightly smaller for better balance */
+  transition: color 0.3s, transform 0.2s;
+}
+
+.nav-link:hover {
+  color: #ff6edc;
+  transform: translateY(-2px);
+}
+
+/* ===== Mobile Menu ===== */
+.mobile-menu-btn {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.mobile-menu-icon {
+  width: 28px;
+  height: 28px;
+  stroke: white;
+  background-color: black;
+  transition: transform 0.3s ease;
+}
+
+.mobile-menu-icon:hover {
+  transform: rotate(90deg);
+}
+
+.mobile-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: rgba(20, 20, 20, 0.95);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  z-index: 40;
+  padding: 1rem 0;
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  list-style: none;
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+.mobile-nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.2s;
+}
+
+.mobile-nav-link:hover {
+  color: #ff6edc;
+  transform: translateX(3px);
+}
+
+/* ===== Responsive Breakpoints ===== */
+
+/* Tablet & below */
+@media (max-width: 1024px) {
+  .logo {
+    height: 65px;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+    
+  }
+
+  .header {
+    padding: 0.6rem 1rem;
+  }
+
+  .logo {
+    height: 60px;
+  }
+}
+
+/* Small mobile (under 480px) */
+@media (max-width: 480px) {
+  .header {
+    padding: 0.5rem 0.8rem;
+  }
+
+  .logo {
+    height: 55px;
+  }
+
+  .mobile-nav-links {
+    gap: 1rem;
+  }
+
+  .mobile-nav-link {
+    font-size: 1rem;
+  }
+}
